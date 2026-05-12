@@ -1,0 +1,3 @@
+import classs
+
+classs.main()
