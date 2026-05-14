@@ -38,6 +38,7 @@ class Data():
                              'Результат операции' : 'str',
                              'Cash-back' : 'str',
                              'Сумма cash-back' : 'float64'}
+                k = 0
                 errors = []
                 for c, type in cols_type.items():
                     if self._df[c].dtype != type:
